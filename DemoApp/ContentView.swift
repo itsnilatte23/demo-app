@@ -15,10 +15,12 @@ struct ContentView: View {
             
             VStack {
                 Text("nila")
-                Text("wei xin")
-                Text("9am")
-                Text(",.")
+                    .foregroundStyle(.white)
 
+                Text("wei xin")
+                    .foregroundStyle(.white)
+                Text("9am")
+                    .font(.title)
             }
             .padding()
         }
